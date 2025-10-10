@@ -1,0 +1,8 @@
+pytest>=8.3.0
+jsonlines>=4.0.0
+pydantic>=2.8.0
+torch>=2.1.0
+transformers>=4.41.0
+datasets>=2.19.0
+peft>=0.10.0
+accelerate>=0.30.0

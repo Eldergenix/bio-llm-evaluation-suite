@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bio-llm-eval"
+version = "0.1.0.dev0"
+description = "Bio-LLM Evaluation Suite scaffolding for AI/Bio research portfolio"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Nexis", email = "research@nexis.dev" }]
+requires-python = ">=3.9"
+dependencies = [
+    "pytest>=8.3.0",
+    "jsonlines>=4.0.0",
+    "pydantic>=2.8.0",
+    "torch>=2.1.0",
+    "transformers>=4.41.0",
+    "datasets>=2.19.0",
+    "peft>=0.10.0",
+    "accelerate>=0.30.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black>=24.3.0",
+    "ruff>=0.5.0",
+]
+
+[project.urls]
+homepage = "https://github.com/nexisdev"
+repository = "https://github.com/nexisdev"
+
+[tool.black]
+line-length = 100
+target-version = ["py311", "py310", "py39"]
+include = "src|tests"
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+select = ["E", "F", "I", "B", "UP"]
+ignore = []
+src = ["src", "tests"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["bio_llm_eval"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
