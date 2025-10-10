@@ -1,0 +1,25 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Build outputs
+dist/
+build/
+artifacts/
+
+# Reports & logs
+reports/**/*.json
+reports/**/*.html
+logs/**/*.csv
+
+# Editor
+.DS_Store
+.vscode/
+.idea/

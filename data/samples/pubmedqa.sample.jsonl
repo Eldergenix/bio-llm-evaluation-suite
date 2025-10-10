@@ -1,0 +1,3 @@
+{"question": "Does aspirin reduce the risk of heart attack?", "context": "Clinical trials show that low-dose aspirin can reduce the risk of myocardial infarction in high-risk patients.", "final_decision": "yes"}
+{"question": "Can antibiotics treat viral infections?", "context": "Antibiotics are effective against bacterial infections and do not treat viruses such as influenza.", "final_decision": "no"}
+{"question": "Is diabetes characterized by high blood sugar levels?", "context": "Diabetes mellitus is diagnosed based on elevated glucose measurements.", "final_decision": "yes"}

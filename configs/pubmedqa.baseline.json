@@ -1,0 +1,22 @@
+{
+  "training": {
+    "model_name": "facebook/galactica-125m",
+    "learning_rate": 5e-5,
+    "epochs": 1,
+    "output_dir": "artifacts/pubmedqa-baseline",
+    "max_train_samples": 128,
+    "batch_size": 2,
+    "gradient_accumulation_steps": 1,
+    "seed": 42,
+    "dry_run": true,
+    "lora": {
+      "enable": false,
+      "r": 8,
+      "alpha": 16,
+      "dropout": 0.05,
+      "target_modules": null
+    }
+  },
+  "dataset_path": "data/samples/pubmedqa.sample.jsonl",
+  "report_path": "reports/pubmedqa-baseline.json"
+}
