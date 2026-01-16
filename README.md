@@ -109,12 +109,6 @@ Refer to `CONTRIBUTING.md` for full workflow details (linting, compliance steps,
 - `lora.enable` — toggle PEFT LoRA adapters; targeting modules configurable.
 - `dry_run` — Skip model downloads; automatically overridden to `True` if no GPU is detected.
 
-## Contact & Availability
-
-- **Email:** research@nexis.dev (placeholder — update with preferred contact)
-- **Calendly:** Schedule deep dives or pairing sessions for collaborative contributions. (link pending)
-- **Preferred Collaboration Hours:** Weekdays 12:00–18:00 ET; flexible for critical reviews.
-
 ## License
 
-Unless otherwise noted, content in this repository is released under the MIT License to encourage collaboration while protecting sensitive datasets and proprietary assets.
+MIT License to encourage collaboration while protecting sensitive datasets and proprietary assets.
