@@ -1,7 +1,5 @@
 # AI & Bioinformatics Research Portfolio
 
-This workspace collects the artefacts that support a targeted push toward senior AI Research and Bio-AI roles at companies such as OpenAI, Google DeepMind, Microsoft, Meta, and Apple. The repository acts as a public hub for:
-
 - current flagship projects (Bio-LLM Evaluation Suite, Vision-Language-Action Lab Robotics, Comparative Agentic Research Platform),
 - open-source contributions in computational biology ecosystems (Galaxy Project, MAIA, mAIstro, Cognitive Kernel-Pro, Prime Intellect),
 - communication assets (lab reports, demos, newsletters),
