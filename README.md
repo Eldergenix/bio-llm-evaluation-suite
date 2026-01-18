@@ -1,5 +1,9 @@
 # AI & Bioinformatics Research Portfolio
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Nexis-AI/branding-assets/refs/heads/main/nex_banner.png" alt="Nexis AI Banner" width="100%" />
+</div>
+
 - current flagship projects (Bio-LLM Evaluation Suite, Vision-Language-Action Lab Robotics, Comparative Agentic Research Platform),
 - open-source contributions in computational biology ecosystems (Galaxy Project, MAIA, mAIstro, Cognitive Kernel-Pro, Prime Intellect),
 - communication assets (lab reports, demos, newsletters),
